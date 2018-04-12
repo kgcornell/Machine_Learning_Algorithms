@@ -20,6 +20,10 @@ There are various regression algorithms that can be used:
   * Lasso
   * Ridge
   * Elastic Net
+  The last three ways of fitting basically use the concept of regularization to avoid overfitting.
+  
+  **Advantages** - Linear Regression in general has high interpretability. This means that the model itself is easy to understand and conclusions about the data set can be obatined from the final model. It also works very well when the data has linear relationship and can be updated when new data comes in using a method called as Stochastic Gradient Descent.
+  **Disadvantages** - If there exist non-linear relationships in the data, linear regression is not a very wise choice and the predictve accuracy of the model will generally be very poor.
 * Regression Trees
 * Deep Learning
 * Nearest Neighbors
