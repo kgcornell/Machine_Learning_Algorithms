@@ -71,12 +71,8 @@ Some popular clustering algorithms are:
 * **Hierarchical/Agglomerative Clustering**
 * **DBSCAN - Density Based Spatial Clustering of Applications with Noise**
 
-## Deep Learning
-Deep learning is a sub category of machine learning where we use algorithms that are structured on the model of the human brain. 
-
-Some popular deep learning algorithms are:
-* **Convolutional Neural Networks**
-* **Recurrent Neural Networks**
+## No Free Lunch Theorem
+This theorem for machine learning states that, averaged over all possible data-generating distributions, every classification algorithm has the same error rate when classifying previously unobserved points. In other words, no machine learning algorithm is universally any better than other.
 
 
 
