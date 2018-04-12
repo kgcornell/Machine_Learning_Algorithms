@@ -21,7 +21,7 @@ Some of the popular techniques used for this are:
 * **Generalized Discriminant Analysis**
 
 
-With a fixed number of training samples, the predictive power of a classifier/regressor first increases as the number of dimensions increase but then starts decreasing. This is known as *Hughes phenomenon* or *peaking phenomena*.
+With a fixed number of training samples, the predictive power of a classifier/regressor first increases as the number of dimensions increase but then starts decreasing. This is known as *Hughes phenomenon* or *Peaking phenomena*.
 
 ## Machine Leanrning Tasks:
 * Regression
