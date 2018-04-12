@@ -27,7 +27,6 @@ There are various regression algorithms that can be used:
   *Disadvantages* - If there exist non-linear relationships in the data, linear regression is not a very wise choice and the predictve accuracy of the model will generally be very poor.
   
 * **Regression Trees**
-* **Deep Learning**
 * **Nearest Neighbors**
 
 ### Classification
@@ -36,10 +35,8 @@ A machine learning task is identified as a classification task when our aim is t
 Some popular clasification algorithms are:
 * **Logistic Regression**
 * **Classification Trees**
-* **Deep Learning**
 * **Support Vector Machines**
 * **Naive Bayes**
-* **Linear Discriminant Analysis**
 
 ### Clustering
 This is basically comes under the domain of unsupervised learning where we do not have labels to our data. Rather the algorithm should do the job of finding patterns in the data set and accordingly allocate data to different clusters.
@@ -50,6 +47,20 @@ Some popular clustering algorithms are:
 * **Affinity Propagation**
 * **Hierarchical/Agglomerative Clustering**
 * **DBSCAN - Density Based Spatial Clustering of Applications with Noise**
+
+## Deep Learning
+Deep learning is a sub category of machine learning where we use algorithms that are structured on the model of the human brain. 
+
+Some popular deep learning algorithms are:
+* **Convolutional Neural Networks**
+* **Recurrent Neural Networks**
+
+## Dimensionality Reduction
+Some of the popular techniques used for this are:
+
+* **Principal Component Analysis**
+* **Linear Discriminant Analysis**
+* **Generalized Discriminant Analysis**
 
 
 
