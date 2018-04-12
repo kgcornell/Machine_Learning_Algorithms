@@ -16,6 +16,12 @@ Reducing data dimensionality or making the algorithm more robust to high dimensi
 ## Popular Dimensionality Reduction Techniques
 Some of the popular techniques used for this are:
 
+* **Missing Values Ratio**
+* **Low Variance Filter**
+* **High Correlation Filter**
+* **Random Forests/Ensemble Trees**
+* **Backward Feature Elimination**
+* **Forward Feature Construction**
 * **Principal Component Analysis**
 * **Linear Discriminant Analysis**
 * **Generalized Discriminant Analysis**
