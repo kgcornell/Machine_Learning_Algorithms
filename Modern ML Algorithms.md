@@ -6,6 +6,23 @@ Machine Learning Algorithms can be categorized as either:
 
 There is no one algorithm that works best for every problem. The choice of algorithm should be dependent on factors such as size and structure of the data set. Thus many algorithms should be tried out on a given data set.
 
+## Curse of Dimensionality
+Curse of Dimensionality is a term coined by Richard Bellman and is a group of phenomena associated with high-dimensional data. The underlying theme of all the problems is that when the dimensionality increases, the volume of the space increases so fast that the available data becomes sparse. Let us consider a small example to understand this phenomena (Taken from [Clever Owl](http://cleverowl.uk/2016/02/06/curse-of-dimensionality-explained/). Say we have a data set consisting of 20 training samples and having one feature only. Each of these samples also has an associated label that can be either of the two classes. This means that we are in a binary classification setting. 
+
+Say we divide our sample space into 4 regions and whenever we encounter a new data point, we identify the region to which it belongs and assign it to the class which has the maximum number of data points belonging to it in that region. Lets add one more dimension to our data set. In this scenario, the number of spaces increase from 4 to 16 and the average number of data points in a particular region decreases. Moreover there are regions entirely devoid of data points and our classifier would get confused were it to encounter a data point belonging to these empty regions. This sparsity increases on adding one more dimension as now the number of regions are 64 instead of 16. This is in essence the curse of dimensionality.
+
+Reducing data dimensionality or making the algorithm more robust to high dimensional data are methods for tackling this curse of dimensionality. The former method is more prevalent and the section below analyzes different dimensionality reduction techniques in detail.
+
+## Popular Dimensionality Reduction Techniques
+Some of the popular techniques used for this are:
+
+* **Principal Component Analysis**
+* **Linear Discriminant Analysis**
+* **Generalized Discriminant Analysis**
+
+
+With a fixed number of training samples, the predictive power of a classifier/regressor first increases as the number of dimensions increase but then starts decreasing. This is known as *Hughes phenomenon* or *peaking phenomena*.
+
 ## Machine Leanrning Tasks:
 * Regression
 * Classification
@@ -55,12 +72,7 @@ Some popular deep learning algorithms are:
 * **Convolutional Neural Networks**
 * **Recurrent Neural Networks**
 
-## Dimensionality Reduction
-Some of the popular techniques used for this are:
 
-* **Principal Component Analysis**
-* **Linear Discriminant Analysis**
-* **Generalized Discriminant Analysis**
 
 
 
