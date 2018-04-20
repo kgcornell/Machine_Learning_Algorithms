@@ -50,7 +50,7 @@ There are various regression algorithms that can be used:
   *Disadvantages* - If there exist non-linear relationships in the data, linear regression is not a very wise choice and the predictve accuracy of the model will generally be very poor.
   
 * **Regression Trees**
-* **Nearest Neighbors**
+
 
 ### Classification
 A machine learning task is identified as a classification task when our aim is to predict categorical variables. Examples include determining whether an applicant should be given a credit card or not, predicting the type of weather etc.
@@ -60,6 +60,7 @@ Some popular clasification algorithms are:
 * **Classification Trees**
 * **Support Vector Machines**
 * **Naive Bayes**
+* **K - Nearest Neighbors**
 
 ### Clustering
 This is basically comes under the domain of unsupervised learning where we do not have labels to our data. Rather the algorithm should do the job of finding patterns in the data set and accordingly allocate data to different clusters.
