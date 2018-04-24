@@ -10,6 +10,8 @@ Thus our aim is to calculate the total probability of observing all the data. He
 **Point to Note:**
 It is entirely possible that the log-likelihood function might still be analytically intractable. Therefore, iterative methods such as Expectation-Maximization algorithms are used to find numerical solutions for the parameter estimates. 
 
+## Bayesian Inference for Parameter Estimation
+This is another method that can be used for estimating parameters of a distribution and is a generalisation of MLE. Bayes Theorem forms the basis of this technique. Bayes Theorem allows us to use some knowledge or belief that we already have (commonly known as the prior) to help us calculate the probability of a related event.
 
 ## References
 * [Probability concepts explained: Maximum likelihood estimation - Medium](https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1)
